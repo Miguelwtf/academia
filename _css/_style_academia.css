@@ -1,0 +1,99 @@
+body {
+	margin: auto;
+	background-image: url("../_img/_bg2.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.topo {
+	margin: auto;
+	margin-top: 10px;
+	width: 1000px;
+	height: 280px;
+	background-image: url("../_img/_logo.png");
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.menu {
+	margin: auto;
+	background-image: url("../_img/_bg_menu.png");
+	width: 1000px;
+	height: 30px;
+	text-align: center;
+	word-spacing: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.menu a {
+	font-weight: bolder;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Verdana";
+	display: inline-block;
+	margin-top: 5px;
+}
+.menu a:hover {
+	color: red;
+}
+.centro {
+	margin: auto;
+	margin-top: 25px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 1005px;
+	height: 500px;
+}
+.texto {
+	margin: 20px 20px 20px 20px;
+	font-family: "Verdana";
+	font-size: 14px;
+}
+.texto h2 {
+	font-size: 18px;
+}
+.conteudo {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 800px;
+	height: 500px;
+	float: right;
+	background-color:white;
+	border-left:solid; 
+	border-width: 2px;
+}
+.lateral {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;	
+	float: left;
+	width: 200px;
+	height: 500px;
+	background-color: white;
+	border-right: solid;
+	border-width: 2px;
+}
+.lateral img {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.rodape {
+	margin: auto;
+	background-image: url("../_img/_rodape.png");
+	width: 1005px;
+	height: 20px;
+	margin-bottom: 35px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	color:#cccccc;
+	word-spacing: 5px;
+}
+.rodape a {
+	text-decoration: none;
+	color:#cccccc;
+}
+.rodape a:hover {
+	color:white;
+}

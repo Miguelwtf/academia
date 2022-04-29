@@ -1,0 +1,242 @@
+body {
+	margin: auto;
+	background-image: url("../_img/_bg2.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.topo {
+	margin: auto;
+	margin-top: 10px;
+	width: 1000px;
+	height: 280px;
+	background-image: url("../_img/_logo.png");
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.menu {
+	margin: auto;
+	background-image: url("../_img/_bg_menu.png");
+	width: 1000px;
+	height: 30px;
+	text-align: center;
+	word-spacing: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.menu a {
+	font-weight: bolder;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Verdana";
+	display: inline-block;
+	margin-top: 5px;
+}
+.menu a:hover {
+	color: red;
+}
+/*.centro {
+	margin: auto;
+	margin-top: 25px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 1005px;
+	height: 500px;
+}*/
+.texto {
+	margin: 20px 20px 20px 20px;
+	font-family: "Verdana";
+}
+.conteudo {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 800px;
+	height: 500px;
+	float: right;
+	background-color:white;
+	border-left:solid; 
+	border-width: 2px;
+}
+.lateral {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;	
+	float: left;
+	width: 200px;
+	height: 500px;
+	background-color: white;
+	border-right: solid;
+	border-width: 2px;
+}
+.lateral img {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.rodape {
+	margin: auto;
+	background-image: url("../_img/_rodape.png");
+	width: 1005px;
+	height: 20px;
+	margin-bottom: 35px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	color:#cccccc;
+	word-spacing: 5px;
+}
+.rodape a {
+	text-decoration: none;
+	color:#cccccc;
+}
+.rodape a:hover {
+	color:white;
+}
+.centro {
+	width: 1005px;
+}
+.icone {
+	display: none;
+}
+@media only screen and (max-width: 800px)  and (min-width: 350px) {
+	body {
+		background-size: 100% 100%;
+	}
+	.centro {
+		width: 600px;
+	}
+	.topo {
+		background-size:600px 180px; 
+		width: 600px;
+		height: 180px;
+	}
+	.menu {
+		width: 600px;
+		height: 30px;
+		text-align: center;
+		word-spacing: 10px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+	.menu a {
+		font-weight: bolder;
+		color: white;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: "Verdana";
+		display: inline-block;
+		margin-top: 5px;
+		font-size: 10px;
+	}
+	.texto {
+	margin: 20px 20px 20px 20px;
+	font-family: "Verdana";
+	}
+	.conteudo {
+	float: left;
+	border-radius: 20px;
+	width: 600px;
+	height: 500px;
+	background-color:white;
+	border:solid; 
+	border-width: 2px;
+	}
+	.lateral {
+	margin: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;	
+	width: 600px;
+	height: 100px;
+	background-color: white;
+	border: solid;
+	border-width: 2px;
+	}
+	.lateral img {
+	width: 120px;
+	height: 80px;
+	margin-left: 20px;
+	margin-top: 10px;
+	}
+	.rodape {
+		display: none;
+	}
+	.icone {
+		display: none;
+	}
+}
+@media only screen and (max-width: 349px) {
+	body {
+		background-size: 100% 100%;
+	}
+	.icone {
+		display: none;
+		position: absolute;
+		width: 55px;
+		height: 55px;
+		margin-top: 100px;
+	}
+	
+	.centro {
+		width: 350px;
+
+	}
+	.menu {
+		background-color: black;
+		width: 350px;
+		height: 60px;
+		text-align: center;
+		word-spacing: px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+	.menu a {
+		font-weight: bolder;
+		color: white;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: "Verdana";
+		display: inline-block;
+		margin-top: 5px;
+		font-size: 10px;
+	}
+	.topo {
+	background-size:400px 120px; 
+	width: 350px;
+	height: 120px;
+	margin-top: 0px;
+	}
+	.texto {
+	margin: 20px 20px 20px 20px;
+	font-family: "Verdana";
+	}
+	.conteudo {
+	float: left;
+	border-radius: 20px;
+	width: 350px;
+	height: 600px;
+	background-color:white;
+	border:solid; 
+	border-width: 2px;
+
+	}
+	.lateral {
+	float: left;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;	
+	width: 350px;
+	height: 60px;
+	background-color: white;
+	border: solid;
+	border-width: 2px;
+	}
+	.lateral img {
+	width: 60px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 8px;
+	}
+	.rodape {
+		display: none;
+	}
+}
